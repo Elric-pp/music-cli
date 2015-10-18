@@ -12,7 +12,6 @@ app
     .parse(process.argv);
 
 if (!process.argv[2]) {
-    console.log('h')
     pp.init();
 };
 
