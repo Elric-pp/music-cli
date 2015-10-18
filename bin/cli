@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+var app = require('commander')
+var PP = require('../lib/player');
+var commands = require('../lib/commands');
+
+var pp = new PP();
+var command = process.argv[2];
+
+app
+    .version('0.0.1')
+    .option('-c, --config', 'config', commands.config)
+    .parse(process.argv);
+
+if (!process.argv[2]) {
+    console.log('h')
+    pp.init();
+};
+

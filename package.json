@@ -1,0 +1,24 @@
+{
+  "name": "music-cli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "pp": "bin/cli"
+  },
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "commander": "^2.9.0",
+    "continuation-local-storage": "^3.1.4",
+    "fs-extra": "^0.24.0",
+    "home": "^0.1.8",
+    "inquirer": "^0.10.1",
+    "player": "^0.5.1",
+    "request-promise": "^1.0.1"
+  }
+}
