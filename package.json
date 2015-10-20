@@ -19,6 +19,7 @@
     "home": "^0.1.8",
     "inquirer": "^0.10.1",
     "player": "^0.5.1",
-    "request-promise": "^1.0.1"
+    "request-promise": "^1.0.1",
+    "term-canvas": "0.0.5"
   }
 }
